@@ -1,0 +1,74 @@
+:root {
+  --pink: #f14e95;
+  --bg: #0a0a0a;
+  --shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "Work Sans", sans-serif;
+  min-height: 2000px;
+}
+
+.hero {
+  background-color: var(--bg);
+  min-height: 100vh;
+}
+
+.hero h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 6rem;
+}
+
+.hero h4 {
+  font-size: 1.6rem;
+}
+
+.hero p {
+  font-size: 1.4rem;
+}
+
+.hero a {
+  color: var(--pink);
+  background-color: white;
+}
+
+.hero a:hover {
+  color: white;
+  background-color: var(--pink);
+}
+
+/* Media Query */
+
+/* Laptop */
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 75%;
+  }
+
+  .simply-countdown > .simply-section {
+    padding: 70px;
+  }
+}
+/* Tablet */
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 60px;
+    margin: 5px;
+  }
+}
+/* Smartphone */
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 60%;
+  }
+  .simply-countdown > .simply-section {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin: 1px;
+  }
+}
