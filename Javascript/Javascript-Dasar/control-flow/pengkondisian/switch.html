@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Switch</title>
+  </head>
+  <body>
+    <script>
+      // Prompt
+      let saldoAwal = Number(prompt("Masukkan Saldo Awal Anda"));
+      let saldoTambahan = Number(prompt("Masukkan Saldo Tambahan Anda"));
+      let saldoAkhir = alert(`saldo akhir anda adalah ${saldoAwal + saldoTambahan}`);
+      let date = new Date().getDay();
+      //   console.log(date);
+
+      switch (date) {
+        case 1:
+          console.log("Senin");
+          break;
+        case 2:
+          console.log("Selasa");
+          break;
+        case 3:
+          console.log("Rabu");
+          break;
+        case 4:
+          console.log("Kamis");
+          break;
+        case 5:
+          console.log("Jum'at");
+          break;
+        case 6:
+          console.log("Sabtu");
+          break;
+        case 7:
+          console.log("Minggu");
+          break;
+      }
+    </script>
+  </body>
+</html>

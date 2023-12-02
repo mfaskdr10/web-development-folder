@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Javascript Dasar</title>
+  </head>
+  <body>
+    <script>
+      // Program Halo Dunia
+
+      document.writeln("<b>Program Halo Dunia</b>");
+      document.writeln("<br>");
+      document.writeln("Halo Dunia");
+      document.writeln("<br>");
+      document.writeln("Halo Perkenalkan nama saya Muhammad Fadhil Alvan Syah");
+
+      // Komentar satu baris
+      /*
+        Komentar Dua Baris
+        Komentar Dua Baris
+        */
+      // Tipe data Number
+      document.writeln("<br>");
+      document.writeln("<b>Tipe Data Number</b>");
+      document.writeln("<br>");
+
+      /// Angka Biasa
+      document.writeln("100");
+      document.writeln("<br>");
+      /// Angka Desimal menggunakan titik bukan koma
+      document.writeln("100.10");
+      document.writeln("<br>");
+
+      // Operator pada Javascript
+
+      /// Aritmatika
+      let x = 10 + 10; //Termasuk Penugasan
+      document.writeln(x);
+      document.writeln("<br>");
+
+      // Penugasan /Assignment
+      let y = 20;
+      document.writeln((y += 5));
+      document.writeln("<br>");
+      document.writeln((y *= 100));
+      document.writeln("<br>");
+
+      // Perbandingan
+      const Ket = "Apakah nilai 10 sama dengan 10";
+      const Smdengan = 10 == 10;
+      document.writeln(Ket + " " + Smdengan); // Operator string
+      document.writeln("<br>");
+
+      // Logika
+      const DataGen = 24;
+      document.writeln(DataGen % 2 == 0 || DataGen < 20);
+      document.writeln("<br>");
+
+      // Kondisi
+      const dataGen = 12;
+      document.writeln(dataGen % 2 == 0 ? "Genap" : "Ganjil");
+      document.writeln("<br>");
+      // String
+      document.writeln('"Gerakan"' + " " + "Pada Hari Jum'at saya bersepeda");
+      document.writeln("<br>");
+
+      // alert
+      // alert("Halo Nama Saya Muhammad Fadhil Alvan Syah");
+
+      // Prompt
+      var nama = prompt("Masukkan Nama");
+      alert("Nama Kamu adalah " + nama);
+    </script>
+  </body>
+</html>

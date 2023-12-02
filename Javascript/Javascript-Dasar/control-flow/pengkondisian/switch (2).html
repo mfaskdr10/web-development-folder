@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Switch</title>
+  </head>
+  <body>
+    <script>
+      let item = prompt("MASUKKAN NAMA MAKANAN DAN MINUMAN \n Cth: Nasi, daging, susu, hamburger, softdrink");
+      // Menggunakan Break
+      switch (item) {
+        case "Nasi":
+          alert("ANDA MEMASUKKAN MAKANAN SEHAT");
+          break;
+        case "daging":
+          alert("ANDA MEMASUKKAN MAKANAN SEHAT");
+          break;
+        case "susu":
+          alert("ANDA MEMASUKKAN MINUMAN SEHAT");
+          break;
+        case "hamburger":
+          alert("ANDA MEMASUKKAN MAKANAN TIDAK SEHAT");
+          break;
+        case "softdrink":
+          alert("ANDA MEMASUKKAN MINUMAN TIDAK SEHAT");
+          break;
+        default:
+          alert("ANDA TIDAK MEMASUKKAN MAKANAN / MINUMAN SEHAT ATAU TIDAK SEHAT");
+      }
+
+      // tidak menggunakan break
+      switch (item) {
+        case "Nasi":
+        case "daging":
+        case "susu":
+          alert("ANDA MEMASUKKAN MINUMAN SEHAT");
+          break;
+        case "hamburger":
+        case "softdrink":
+          alert("ANDA MEMASUKKAN MINUMAN TIDAK SEHAT");
+          break;
+        default:
+          alert("ANDA TIDAK MEMASUKKAN MAKANAN / MINUMAN SEHAT ATAU TIDAK SEHAT");
+      }
+    </script>
+  </body>
+</html>

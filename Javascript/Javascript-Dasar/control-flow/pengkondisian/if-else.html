@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pengkondisian => if else</title>
+  </head>
+  <body>
+    <script>
+      // angkot
+      angkot = 1;
+      jmlAngkot = 10;
+
+      for (angkot = 1; angkot <= jmlAngkot; angkot++) {
+        if (angkot <= 6 && angkot !== 5 && angkot !== 3) {
+          console.log("Angkot No. " + angkot + " beroperasi dengan baik.");
+        } else if (angkot === 8 || angkot === 10 || angkot === 5 || angkot === 3) {
+          console.log("Angkot No. " + angkot + " sedang lembur");
+        } else {
+          console.log("Angkot No. " + angkot + " sedang tidak beroperasi.");
+        }
+      }
+
+      //pengecekan bilangan genap ganjil
+      //   let angka = prompt("masukkan angka");
+
+      //   if (angka % 2 === 0) {
+      //     alert("angka " + angka + " adalah bilangan genap");
+      //   } else if (angka % 2 === 1) {
+      //     alert("angka " + angka + " adalah bilangan ganjil");
+      //   } else {
+      //     alert("yang anda masukkan bukan angka");
+      //   }
+    </script>
+  </body>
+</html>
